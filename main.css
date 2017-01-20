@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    font-family: verdana;
+}
+p{
+    font-family: arial;
+    margin: inherit;
+    font-size: inherit;
+    text-align: center;
+}
+h1{
+    color: red;
+    position: relative;
+    top: 70px;
+    margin-bottom: 200px;
+}
+h2{
+    font-size: 30px;
+    text-align: center;
+}
+nav{
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+#wBody{
+
+}
+.firstpart{
+    background-color: #9dc6d8;
+    overflow: hidden;
+    width: 100%;
+    margin-top: -6px;
+    text-align: center;
+    min-height: 700px;
+}
+footer center{
+    margin: 14px;
+    font-size: 14px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2187a2;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: #269dbd;
+}
+.active{
+    /*Use with PHP to identify if user is on active tab*/
+    background-color: #0b657d;
+}
